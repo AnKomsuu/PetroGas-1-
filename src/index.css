@@ -5,6 +5,7 @@
   --color-dark-gray: #0f0f0f;
   --color-verydark-gray: #252525;
   --color-black-gray: #0d003b;
+  --color-gray-black: #222222;
 }
 body {
   font-family: Inter, sans-serif;

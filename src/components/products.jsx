@@ -10,7 +10,7 @@ import Product8 from "../assets/product8.png";
 export function Products() {
   return (
     <>
-      <section className="px-10">
+      <section className="px-10 mb-25">
         <h2 className="leading-[120%] font-medium mb-6 text-5xl text-dark-gray tracking-[-3px]">
           Услуги и Продукты
         </h2>
@@ -129,11 +129,145 @@ export function Products() {
             Показано 8 of 32 результата
           </p>
         </div>
-        <div className="flex">
-          <div className="p-2 border border-[#0F004733] rounded-[5px]">
-            <img src={Product1} alt="" />
-            <p></p>
-            <p></p>
+        <div className="flex gap-x-11 gap-y-3 flex-wrap">
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product1} alt="" />
+            <p className="text-black-gray text-lg font-medium my-4 uppercase">
+              Bitumen (Битум дорожный)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product2} alt="" />
+            <p className="text-black-gray font-medium my-4 uppercase">
+              <span className="text-lg">Mazut M-100</span> (Мазут топочный)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product3} alt="" />
+            <p className="text-black-gray font-medium my-4 uppercase">
+              <span className="text-lg">Diesel Fuel</span>(Дизельное топливо)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product4} alt="" />
+            <p className="text-black-gray font-medium my-4 uppercase">
+              <span className="text-lg">Crude Oil</span> (Нефть сырая)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product5} alt="" />
+            <p className="text-black-gray w-75 font-medium my-4 uppercase">
+              <span className="text-lg">LPG</span> (Сжиженный газ —
+              пропан/бутан)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product6} alt="" />
+            <p className="text-black-gray w-75 font-medium my-4 uppercase">
+              <span className="text-lg">Jet Fuel</span> (Реактивное топливо
+              ТС-1)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product7} alt="" />
+            <p className="text-black-gray w-75 font-medium my-4 uppercase">
+              <span className="text-lg">Technical Sulfur</span> (Сера
+              техническая)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
+          </div>
+          <div className="p-2 h-112 border border-[#0F004733] rounded-[5px]">
+            <img className="rounded-lg" src={Product8} alt="" />
+            <p className="text-black-gray w-65 font-medium my-4 uppercase">
+              <span className="text-lg">Petroleum Residue</span> (Гудрон)
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Тип:</span> М-100
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Происхождение:</span> Россия /
+              Узбекистан / Кыргызстан
+            </p>
+            <p className="text-gray-black text-xs">
+              <span className="font-medium">Поставка:</span> от 50 тонн, авто и
+              жд транспортировка
+            </p>
           </div>
         </div>
       </section>
