@@ -6,6 +6,9 @@
   --color-verydark-gray: #252525;
   --color-black-gray: #0d003b;
   --color-gray-black: #222222;
+  --breakpoint-2.5xl: 90.0625rem;
+  --breakpoint-3xl: 103.3125rem;
+  --breakpoint-4xl: 146rem;
 }
 body {
   font-family: Inter, sans-serif;
