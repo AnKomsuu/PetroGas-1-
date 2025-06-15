@@ -105,11 +105,15 @@ export function Price() {
           </td>
           <td className="text-dark-gray border border-gray-300 w-130 text-center">
             <p className="text-[18px]">Доллар → Сом</p>
-            <p className="text-[27px] font-semibold">89.50 с</p>
+            <p className="text-[27px] font-semibold">
+              89.50 <span className="underline">с</span>
+            </p>
           </td>
           <td className="text-dark-gray border border-gray-300 w-130 text-center">
             <p className="text-[18px]">Рубль → Сом</p>
-            <p className="text-[27px] font-semibold">1.08 с</p>
+            <p className="text-[27px] font-semibold">
+              1.08 <span className="underline">с</span>
+            </p>
           </td>
         </tr>
       </table>
